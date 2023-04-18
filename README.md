@@ -1,5 +1,7 @@
 # ConfigurationManagement
 
+** OBS: Foi pego um projeto antigo para fazer esse detalhamento hipotético **
+
 ## O Sistema de Vendas tem as seguintes funcionalidades:
 
 * O sistema possui interface gráfica ( segue exemplos do final do documento ) 
