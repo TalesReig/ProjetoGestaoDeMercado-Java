@@ -1,0 +1,1 @@
+# TalesReig-TrabalhoDeEngenhariaDeSoftware-ConfigurationManagement
