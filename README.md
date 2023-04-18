@@ -8,9 +8,9 @@
 * O Sistema contará com 2 com 2 tipos de acesso.
   * ![Captura de tela 2023-04-17 220800](https://user-images.githubusercontent.com/90864593/232643347-553f551e-d92b-437e-8eb6-b7fb6a5bbc67.png)
   * Admim, que conseguirá inserir editar e excluir produtos do estoque, de acordo com as regras de validação que o cliente que comprar o produto decidir. Mas existem as regras padrões como o nome do produto não pode ser vazio, valor maior que zero e só pode excluir caso não esteja em algum pedido em aberto ou algo do tipo.
-  ![Captura de tela 2023-04-17 220822](https://user-images.githubusercontent.com/90864593/232643243-95aba889-3a2e-4cb3-b89e-58b828202fc3.png)
+  * ![Captura de tela 2023-04-17 220822](https://user-images.githubusercontent.com/90864593/232643243-95aba889-3a2e-4cb3-b89e-58b828202fc3.png)
   * Cliente o cliente poderá apenas adicionar item no pedido, remover e escolher forma de pagamento e Quando a forma de pagamento for escolhida como crédito, permitir o registro da quantidade de parcelas, sendo que cada parcela deve ser maior que R $20,00.
-  ![Captura de tela 2023-04-17 220814](https://user-images.githubusercontent.com/90864593/232643289-5c21be9c-ee7f-44d5-a6d5-a74ba2d49f68.png)
+  * ![Captura de tela 2023-04-17 220814](https://user-images.githubusercontent.com/90864593/232643289-5c21be9c-ee7f-44d5-a6d5-a74ba2d49f68.png)
 * Os dados do arquivo seriam salvos em um Banco de dados local e na nuvem para garantir a segurança do sistema. 
 * O projeto foi feito em uma linguagem híbrida no Caso Java.
 * O projeto seria do tipo javax.swing.
