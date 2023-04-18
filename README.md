@@ -1,6 +1,6 @@
 # ConfigurationManagement
 
-** OBS: Foi pego um projeto antigo para fazer esse detalhamento hipotético **
+**OBS: Foi pego um projeto antigo para fazer esse detalhamento hipotético**
 
 ## O Sistema de Vendas tem as seguintes funcionalidades:
 
@@ -16,11 +16,11 @@ Como foi conversado em sala, o projeto é hipotético e o Real não usa banco de
 
 ## Processo de Solicitação de Mudanças.
 
-1. Recebimento da solicitação de Mudança: O processo começa quando o Gerente de Produto recebe uma solicitação de mudança do cliente ou do próprio time interno da empresa. Essa solicitação deve ser registrada em uma ferramenta de gerenciamento de projetos ou em um sistema de rastreamento de problemas. É importante que a solicitação inclua informações claras e detalhadas sobre a mudança desejada, incluindo a justificativa para a mudança e quais funcionalidades serão afetadas.
-2. Triagem da solicitação:O Gerente de Produto analisa a solicitação para determinar sua viabilidade e prioridade. Se a solicitação for considerada viável e valiosa para o negócio, ela será adicionada à lista de backlog do produto. Caso contrário, a solicitação será rejeitada e o Gerente de Produto deve fornecer uma justificativa clara para o solicitante.
-3. Priorização da solicitação:O Product Owner trabalha em conjunto com o Gerente de Produto para priorizar a solicitação de mudança com base nas necessidades do negócio e dos usuários. Eles devem considerar o impacto da solicitação na experiência do usuário, na receita, no tempo de desenvolvimento e em outras considerações relevantes.
-4. Estimativa de esforço e Estimar data de entrega:O Líder de Equipe ou Desenvolvedor experiente é convidado a participar do processo para avaliar a complexidade da mudança e estimar o tempo necessário para a implementação. Eles devem levar em consideração o nível de esforço técnico necessário, bem como o impacto da mudança em outras partes do sistema.
-5. Revisão e Entrega:Após a conclusão dos testes de qualidade, a mudança é revisada pelo Product Owner e pelo Líder de Equipe para garantir que todos os requisitos foram atendidos e que a mudança não afeta negativamente outras partes do sistema. Se aprovado, a mudança é entregue ao cliente ou disponibilizada para uso interno.
+* Recebimento da solicitação de Mudança: O processo começa quando o Gerente de Produto recebe uma solicitação de mudança do cliente ou do próprio time interno da empresa. Essa solicitação deve ser registrada em uma ferramenta de gerenciamento de projetos ou em um sistema de rastreamento de problemas. É importante que a solicitação inclua informações claras e detalhadas sobre a mudança desejada, incluindo a justificativa para a mudança e quais funcionalidades serão afetadas.
+* Triagem da solicitação:O Gerente de Produto analisa a solicitação para determinar sua viabilidade e prioridade. Se a solicitação for considerada viável e valiosa para o negócio, ela será adicionada à lista de backlog do produto. Caso contrário, a solicitação será rejeitada e o Gerente de Produto deve fornecer uma justificativa clara para o solicitante.
+* Priorização da solicitação:O Product Owner trabalha em conjunto com o Gerente de Produto para priorizar a solicitação de mudança com base nas necessidades do negócio e dos usuários. Eles devem considerar o impacto da solicitação na experiência do usuário, na receita, no tempo de desenvolvimento e em outras considerações relevantes.
+* Estimativa de esforço e Estimar data de entrega:O Líder de Equipe ou Desenvolvedor experiente é convidado a participar do processo para avaliar a complexidade da mudança e estimar o tempo necessário para a implementação. Eles devem levar em consideração o nível de esforço técnico necessário, bem como o impacto da mudança em outras partes do sistema.
+* Revisão e Entrega:Após a conclusão dos testes de qualidade, a mudança é revisada pelo Product Owner e pelo Líder de Equipe para garantir que todos os requisitos foram atendidos e que a mudança não afeta negativamente outras partes do sistema. Se aprovado, a mudança é entregue ao cliente ou disponibilizada para uso interno.
 
 
 ## Versionamento do Código:
@@ -40,11 +40,16 @@ A versão de patch é incrementada quando pequenas correções de bugs são feit
 ## Organização Das Branches:
 
 As branches serão organizadas usando o modelo Gitflow, que é um fluxo de trabalho baseado em duas branches principais: master e develop. A branch master será usada para manter o código de produção, enquanto a branch develop será usada para integrar o código de todos os desenvolvedores e para criar os releases. Além dessas branches, serão criadas branches feature para desenvolver novas funcionalidades ou correções de bugs, branches release para preparar a versão para lançamento e branches hotfix para correções emergenciais.
-** Branch Master: ** essa branch contém o código que está em produção. Nenhum código deve ser diretamente commitado nesta branch.
-** Branch Develop: ** está branch é onde os desenvolvedores integram seu código e onde as mudanças são testadas e validadas antes de serem lançadas. Novas branches de feature são criadas a partir desta branch.
-** Branches de Feature: ** cada funcionalidade ou mudança importante deve ser desenvolvida em uma branch de feature separada. Essas branches são criadas a partir da branch Develop e mescladas de volta a ela quando a funcionalidade estiver pronta.
-** Branches de Release: ** as branches de release são criadas a partir da branch Develop quando uma nova versão do software está pronta para ser lançada. Essas branches são usadas para preparar a versão para lançamento e garantir que tudo esteja funcionando corretamente.
-** Branches de Hotfix: ** quando uma falha crítica é encontrada no software em produção, uma branch de hotfix é criada a partir da branch Master. Essas branches são usadas para corrigir o problema o mais rápido possível e garantir que a versão corrigida seja lançada o mais rápido possível.
+
+**Branch Master:** essa branch contém o código que está em produção. Nenhum código deve ser diretamente commitado nesta branch.
+
+**Branch Develop:** está branch é onde os desenvolvedores integram seu código e onde as mudanças são testadas e validadas antes de serem lançadas. Novas branches de feature são criadas a partir desta branch.
+
+**Branches de Feature:** cada funcionalidade ou mudança importante deve ser desenvolvida em uma branch de feature separada. Essas branches são criadas a partir da branch Develop e mescladas de volta a ela quando a funcionalidade estiver pronta.
+
+**Branches de Release:** as branches de release são criadas a partir da branch Develop quando uma nova versão do software está pronta para ser lançada. Essas branches são usadas para preparar a versão para lançamento e garantir que tudo esteja funcionando corretamente.
+
+**Branches de Hotfix:** quando uma falha crítica é encontrada no software em produção, uma branch de hotfix é criada a partir da branch Master. Essas branches são usadas para corrigir o problema o mais rápido possível e garantir que a versão corrigida seja lançada o mais rápido possível.
 
 
 ## Definição das humerações:
